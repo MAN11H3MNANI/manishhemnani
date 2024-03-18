@@ -1,0 +1,118 @@
+html{
+    overflow-x: hidden;
+}
+/* navbar start */
+section{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    overflow-x: hidden;
+}
+
+@media(769px){
+   #bars{
+
+   }
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+     text-decoration: none;
+}
+
+button{
+    border: 1000px;
+
+}
+/* navbar end */
+/* hero start  06.02.2024  */
+.hero{
+    padding-top: 100px;
+    border-top: 2px solid ;
+    overflow-x: hidden;
+
+}
+
+img{
+position: relative;
+z-index: 1;
+}
+
+section article div{
+    padding: 12px;
+}
+
+section article div .requirements{
+    padding: 20px;
+    
+}
+
+#owesomes i{
+    font-size: 24px;
+    margin: 15px;
+    background-color: whitesmoke;
+    border-radius:50%;
+    padding: 20px;
+}
+
+#owesomes{
+    position: absolute;
+    top: 550px;
+    left: 1100px;
+    z-index: 2;
+}
+
+.client{
+    background-color: rgb(40, 40, 93);
+    /* border: 10px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px 50px 100px;
+    margin: 0px;
+    font-size: 48px;
+    overflow-x: hidden;
+}
+
+.client div{
+    /* border: 50px solid red; */
+
+}
+
+.clienth1{
+    background-color: rgb(40, 40, 93);
+    color: white;
+    margin:0px;
+    padding:30px;
+}
+
+/* dedication   13.02.2024 */
+
+#dedication{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 5px solid blueviolet; */
+    font-size: 20px;
+    margin: 50px;
+    overflow-x: hidden;
+
+}
+
+
+@media(max-width:769px){
+    #dedication{
+        background-color: white;
+        display: block
+        font-size 20px;
+        margin: 50px;}   
+}
+
+#dedication img{
+    height: 100px;
+    width: 50px;
+    padding: 0 0 0 20px;
+}
+
